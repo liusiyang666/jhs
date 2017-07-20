@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	list-style: none;
+}
+header img{
+	width: 20%;
+}
+.swiper-slide img{
+	width: 100%;
+}
+section{
+	
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+section div{
+	width: 25%;
+	text-align: center;
+	padding: 1rem 0;
+	font-size: 20px;
+	color: gray;
+}
+section img{
+	width: 60%;
+}
+.bt{
+	margin: 0 1rem;
+	border-left: 4px solid firebrick;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+.bt h4:first-child{
+	margin-left: 20px;
+}
+.content{
+	display: flex;
+	margin: 0 auto;
+	width: 93%;
+	height: 6rem;
+	margin-bottom: 1rem;
+}
+.content>div:nth-child(1){
+	background: #e00202;
+	display: flex;
+	align-items: center;
+	color: white;
+	width: 10%;
+	justify-content: center;
+	height: 100%;
+}
+.content>div:nth-child(2){
+	width: 30%;
+	height: 100%;
+}
+.content img{
+	width: 100%;
+	height: 100%;
+}
+.content>div:nth-child(3){
+	width: 60%;
+	height: 100%;
+	display: flex;justify-content: space-between;
+	background: #f4f4f4;
+	height: 100%;
+	align-items: center;
+	
+}
+.content>div:nth-child(3) span{
+	color: red;
+	
+}
+.content>div:nth-child(3) p{
+	margin: 0.25rem 0.5rem;
+	
+}
+.new{
+	width: 93%;
+	margin: 0 auto;
+	padding: 25px 0;
+	text-align: center;
+	background: #f5f5f5;
+	margin-bottom: 1rem;
+	
+}
+.news{
+	display: flex;
+	width: 93%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+.news>div{
+	width: 25%;
+}
+.news img{
+	width: 100%;
+}
+.news>ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 75%;
+}
+.news li{
+	width: 32.5%;
+	height: 24%;
+	border: 1px solid #F4F4F4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.news li:nth-child(2),li:nth-child(7),li:nth-child(6),li:nth-child(11){
+	color: red;
+}
+.appdown{
+	width: 93%;
+	display: flex;
+	margin: 0 auto;
+}
+.appdown div{
+	width: 33.3%;
+}
+.appdown img{
+	width: 100%;
+}
+.user{
+	width: 93%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+.user>div:first-child{
+	display: flex;
+	width: 15%;
+	justify-content: space-between;
+}
+footer{
+	text-align: center;
+	background: #EEEEEE;
+	padding: 10px 0;
+}
+footer div{
+	padding: 10px 0;
+	
+}
+footer div:last-child{
+	color: gray;
+	font-size: 0.5rem;
+}
